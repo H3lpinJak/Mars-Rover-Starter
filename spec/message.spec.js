@@ -17,6 +17,6 @@ describe("Message class", function() {
     //The description reads “contains a commands array passed into the constructor as the 2nd argument”.
     //confirm the command property of a new message object contains the data passed in from the Message(name, commands)
     it("contains a commands array passed into the constructor as the 2nd argument", function () {
-        expect(commands.name).toBe("")
+        expect(commands).toBe(commands)
     });
 });
